@@ -35,8 +35,8 @@ git switch -c [nombre_de_la_rama] // Crea una nueva rama y cambia a ella.
 git merge [nombre_de_la_rama] // Combina la rama especificada con la rama actual.
 ```
 
-```shell
 ### Interactuar con Remoto
+```shell
 git remote add origin [url] // Conecta tu repositorio local a un servidor remoto.
 git push -u origin [nombre_de_la_rama] // Sube tus commits a la rama remota.
 git pull // Actualiza tu repositorio local con el más reciente commit del repositorio remoto.
