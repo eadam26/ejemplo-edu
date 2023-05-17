@@ -38,6 +38,7 @@ git merge [nombre_de_la_rama] // Combina la rama especificada con la rama actual
 ### Interactuar con Remoto
 ```shell
 git remote add origin [url] // Conecta tu repositorio local a un servidor remoto.
+git remote set-url origin [https://github.com/username/repodeejemplo.git] // actualiza el origin de tu repositorio local
 git push -u origin [nombre_de_la_rama] // Sube tus commits a la rama remota.
 git pull // Actualiza tu repositorio local con el más reciente commit del repositorio remoto.
 git fetch // Obtiene todos los cambios del repositorio remoto, pero no los aplica a tu trabajo actual.
